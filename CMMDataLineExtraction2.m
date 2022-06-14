@@ -13,9 +13,12 @@
 % (measurements).
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 %% NOTES
-% The arrangement of the coordinates in each line depends on how they are
+% (1) The arrangement of the coordinates in each line depends on how they are
 % arranged in the .dat file. (e.g. XY(Z), ZX(Y), etc.)
-% This code is compatible with standard GEOPAK-WIN data file structure.
+% (3) This code is compatible with standard GEOPAK-WIN data file structure.
+% (4) CMM data will be saved to a MATLAB structure field. Therefore, the data files
+% should follow MATLAB's field naming rules. Please refer to MATLAB
+% documentations for details on variable naming. 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 % Author: Amin Kassab-Bachi
 % University of Leeds, June 2022
